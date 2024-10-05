@@ -20,13 +20,8 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             UngDungMuMauTheme {
-                Surface (
-                    modifier = Modifier.fillMaxSize()
-                ){
-                        BackgroundLogin();
-
-
-                }
+                BackgroundLogin()
+                LoginForm()
 //                Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
 //                   BackgroundLogin()
 //                }
